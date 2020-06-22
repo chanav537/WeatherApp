@@ -1,0 +1,25 @@
+.search-form {
+    padding: 50px;
+    margin: auto;
+    max-width: 1240px;
+}
+
+.city-details {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.days-forecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*Responsive style*/
+@media (min-width: 768px) {
+    .condition-container {
+        border: 10px solid #9fce69;
+    }
+}
